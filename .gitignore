@@ -1,3 +1,6 @@
 
 # PowerPoint/Word/Excel lock files
 ~$*
+
+# Slide trinh bay - giu ban local, khong day len repo nop bai
+*.pptx
