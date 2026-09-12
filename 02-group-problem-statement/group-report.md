@@ -175,15 +175,17 @@ tác động nào ngoài thời gian, quyết định cuối sẽ hạ xuống "
 
 ## Phase 4 — Quick Validation + Research
 
-> **Trạng thái dữ liệu phần 4.1:** các con số và quote dưới đây đến từ (a) 3 buổi phỏng vấn ngắn, (b) poll 6 bạn trong lớp K4A, và (c) đếm lịch Google Calendar 4 tuần gần nhất của Dũng. Ô nào nhóm **chưa** có bằng chứng cứng thì vẫn để `[CHƯA ĐO]` kèm cách sẽ đo, không điền số cho đủ chỗ — cụ thể là hai metric về mức độ bỏ sót, phải đếm 2 tuần trong tuần 1 của pilot.
+> **Trạng thái validation — nhóm ghi thẳng ra để không ai hiểu nhầm:** trong khuôn khổ buổi lab, nhóm **chỉ có một nguồn người trong cuộc là Dũng (n = 1)**, chưa kịp chạy khảo sát ra ngoài nhóm. Nhóm chọn ghi rõ điều này thay vì điền số cho kín bảng, vì một bảng validation đẹp mà bịa thì phá hỏng chính thứ cả bản nộp này đang cố làm: phân biệt số đã đo với số mới đoán.
+>
+> Cái nhóm làm được trong thời gian có: (a) khai thác sâu nguồn n = 1 để tách bạch pain thật khỏi pain tưởng tượng, (b) **thiết kế sẵn** bộ câu hỏi khảo sát kèm **quy tắc quyết định chốt trước khi thấy dữ liệu**, và (c) chỉ ra một nguồn kiểm được độc lập, không phụ thuộc trí nhớ ai — lịch Google Calendar của Dũng.
 
 ### 4.1. Quick validation (ít nhất 1 cách: interview 2-3 người hoặc survey 5-10 người)
 
 | Nguồn | Số người / mẫu | Tín hiệu xác nhận (kèm quote nguyên văn) | Tín hiệu phản bác | Nhóm sửa problem thế nào |
 |---|---:|---|---|---|
-| Interview sâu | 3 người: 1 researcher (Dũng, chính chủ), 1 SV đi thực tập có daily/weekly meeting, 1 nhóm trưởng đồ án môn học | 3/3 xác nhận có tự viết note riêng cho mình sau họp, **tách biệt** với biên bản chính thức của buổi họp. Dũng: *"note của mình là để tuần sau mở ra biết tuần này đã chốt gì, không phải để gửi cho ai."* SV thực tập: *"họp xong là quay lại code luôn, tối mới ngồi viết lại, lúc đó quên mất một nửa."* Nhóm trưởng đồ án: *"cái mình sợ không phải quên nội dung, mà quên mất phần việc của chính mình."* | 1/3 nói với meeting ngắn dưới 20 phút thì không cần note gì, nhớ là đủ | Thu hẹp actor: chỉ tính meeting dự án ≥ 30 phút, có nhiều hơn 2 người, có bàn quyết định kỹ thuật. Bỏ khỏi phạm vi: standup ngắn, họp 1-1 xã giao |
-| Survey / poll nhanh trong lớp | 6 bạn trong lớp K4A: Đỗ Đức Đại (2A202602725), Phạm Cường Quốc (2A202602469), Đỗ Ngọc Phi (2A202602531), Phương Nam (2A202602675), Đỗ Đạt (2A202602874), Đức Phát (2A202602753) | Theo 5 câu đã soạn: (1) số meeting ≥30'/tuần — **trung vị 3**, thấp nhất 1, cao nhất 6; (2) 5/6 có tự viết note riêng cho mình; (3) thời gian viết note — trung vị **12 phút**, khoảng 8–20'; (4) **4/6** từng quên một việc mình đã nhận trong họp; (5) mức đáng giải trung bình **3.8/5** | 1/6 (bạn có 1 meeting/tuần) trả lời mức đáng giải 2/5 — với tần suất đó thì không đáng làm gì cả | Trung vị 3 meeting/tuần **vượt ngưỡng 2** mà nhóm tự đặt ra, nên quyết định Go được giữ. Câu (4) là tín hiệu mạnh nhất: nó xác nhận hậu quả "rơi action item" là có thật ở người ngoài nhóm, chứ không riêng gì Dũng |
-| Log / ticket / review | Lịch Google Calendar 4 tuần gần nhất của Dũng `[ĐO — đếm được ngay, không cần trí nhớ]` | Đếm số buổi có ≥2 người và kéo dài ≥30 phút → ra tần suất meeting thật. Đây là nguồn đáng tin nhất nhóm có vì không phụ thuộc trí nhớ ai cả | Nếu lịch cho thấy < 2 buổi/tuần thì con số 40–60'/tuần sụp | Nhóm dùng chính con số này làm baseline tần suất trong Problem Statement, thay cho ước lượng miệng |
+| Hỏi sâu người trong cuộc | **1 người — Dũng, thành viên nhóm, đang trực tiếp gặp bài toán** `[n = 1, nhóm ghi rõ đây là điểm yếu lớn nhất của bản nộp]` | Điều đáng giá nhất moi ra được không phải con số mà là **sự phân biệt**: note cá nhân là thứ **tách biệt** với biên bản chính thức của buổi họp — *"note của mình là để tuần sau mở ra biết tuần này đã chốt gì, không phải để gửi cho ai."* Khi nhóm hỏi tiếp "vậy mất 10-15 phút có đủ đau để làm không", Dũng tự trả lời rằng thứ sợ nhất không phải quên nội dung mà là **quên mất phần việc của chính mình** | Chính Dũng nêu tín hiệu phản bác: với meeting ngắn dưới 20 phút thì không cần note gì, nhớ là đủ | Thu hẹp actor: chỉ tính meeting dự án ≥ 30 phút, từ 3 người trở lên, có bàn quyết định kỹ thuật. Bỏ khỏi phạm vi: standup ngắn, họp 1-1 xã giao |
+| Khảo sát ra ngoài nhóm | **CHƯA CHẠY** `[CHƯA ĐO — hết thời gian trong buổi lab]`. Bộ câu hỏi đã soạn xong, sẵn sàng gửi | 5 câu đã chốt: (1) tuần bạn có mấy meeting ≥30'? (2) bạn có tự viết note riêng cho mình không? (3) mất bao lâu? (4) đã từng quên một việc mình nhận trong họp chưa? (5) mức đáng giải 1–5? | Chưa có dữ liệu nên chưa có tín hiệu nào, thuận hay nghịch | **Quy tắc quyết định nhóm chốt TRƯỚC khi nhìn thấy dữ liệu**, để sau này không tự bẻ cong cách đọc kết quả: nếu tần suất trung vị **< 2 meeting/tuần** thì impact quá nhỏ → hạ xuống Not Yet. Nếu **< 3/10 người** từng quên việc đã nhận trong họp → hậu quả "rơi action item" chỉ là chuyện của riêng Dũng, phải viết lại Impact |
+| Log / lịch — nguồn kiểm được độc lập | Lịch Google Calendar 4 tuần gần nhất của Dũng `[ĐO — đếm được ngay, không cần trí nhớ, người chấm có thể yêu cầu mở ra đối chiếu]` | Đếm số buổi có ≥3 người và kéo dài ≥30 phút → ra tần suất meeting thật là 3–4 buổi/tuần. Đây là con số đáng tin duy nhất trong cả phần validation, vì nó không đi qua trí nhớ của ai | Nếu lịch cho thấy < 2 buổi/tuần thì con số 40–60'/tuần sụp theo | Nhóm dùng chính con số này làm baseline tần suất trong Problem Statement, thay cho ước lượng miệng |
 
 **Insight sau validation (1-2 câu — pain thật nằm ở đâu):**
 
@@ -195,11 +197,27 @@ gì — vì bản thu âm hay biên bản chung không mang theo phần kiến t
 hoặc mở note cũ ra đọc mà không hiểu mình đã ghi gì.
 
 Đây chính là câu trả lời cho nghi ngờ nhóm nêu ở Phase 3 ("tác động ngoài 10-15 phút là
-gì"). Vì có câu trả lời này, nhóm mới giữ quyết định Go; nếu không có, nhóm đã hạ Not Yet
-đúng như đã cam kết trước.
+gì"). Vì có câu trả lời này, nhóm mới giữ quyết định Go.
+
+NHƯNG phải nói rõ giới hạn của chính insight này: nó đến từ n = 1. Nó đủ để nhóm tin rằng
+pain có thật VỚI DŨNG, chưa đủ để nói đây là pain của một nhóm người. Nhóm không bắc cầu
+từ một người sang "ai cũng gặp", và đó là lý do quyết định cuối là Go CÓ ĐIỀU KIỆN với
+pilot 1 người chứ không phải Go rồi triển khai cho cả team.
 ```
 
-Bằng chứng đính kèm: kết quả poll và ghi chú phỏng vấn được chép thẳng vào bảng 4.1 ở trên (không đính kèm file ảnh riêng). Nguồn kiểm được độc lập là lịch Google Calendar 4 tuần gần nhất của Dũng — người chấm có thể yêu cầu Dũng mở ra đối chiếu số buổi họp ≥30 phút.
+**Nhóm tự chấm phần validation của chính mình — đây là mắt xích yếu nhất của bản nộp:**
+
+```text
+Thiếu: chưa có nguồn nào ngoài nhóm. Không có số đo độc lập nào về thời gian viết note.
+Đã có: một nguồn người trong cuộc được khai thác sâu, một nguồn đếm được không qua trí nhớ
+(lịch Calendar), và một bộ câu hỏi kèm quy tắc quyết định đã chốt trước khi có dữ liệu.
+
+Cách nhóm xử lý chỗ thiếu, thay vì lấp bằng số đoán: đẩy toàn bộ việc lấy bằng chứng vào
+TUẦN 1 của pilot — tuần đó chạy Rule thuần, không bật AI, mục đích duy nhất là đo. Nói cách
+khác, nhóm không coi việc thiếu validation là lý do để hoãn, cũng không giả vờ là đã có.
+```
+
+Bằng chứng đính kèm: không có file ảnh khảo sát, vì khảo sát chưa chạy. Nguồn kiểm được độc lập duy nhất là lịch Google Calendar 4 tuần gần nhất của Dũng — người chấm có thể yêu cầu Dũng mở ra đối chiếu số buổi họp ≥30 phút.
 
 ### 4.2. Research giải pháp đã có (ít nhất 2-3 tools/patterns + 1-2 link kiểm được)
 
@@ -322,7 +340,7 @@ chất lượng — nếu bước này bị cắt thì cả hệ thống mất c
 
 | Metric | Trước | Sau kỳ vọng | Cách đo |
 |---|---:|---:|---|
-| Tổng thời gian | 10–15'/meeting `[ƯỚC]` — poll 6 bạn cho trung vị 12', khớp với khoảng này | ≤ 5'/meeting | Bấm giờ từ lúc meeting kết thúc đến lúc note được lưu, 5 buổi liên tiếp trước và 5 buổi sau |
+| Tổng thời gian | 10–15'/meeting `[ƯỚC — n=1, chưa bấm giờ]` | ≤ 5'/meeting | Bấm giờ từ lúc meeting kết thúc đến lúc note được lưu, 5 buổi liên tiếp trước và 5 buổi sau |
 | Số bước | 6 | 5 | Đếm trên sơ đồ; quan trọng hơn số bước là số bước **người** phải làm |
 | Số bước thủ công | 6/6 | 1/5 (chỉ còn bước review) | Đếm bước có actor là người |
 | Bottleneck chính | Tra lại ngữ cảnh dự án (bước 3, 3–5') | Người review draft (bước 4, 3–4') | Nghẽn dịch từ "moi lại thông tin" sang "kiểm chứng" — đắt tương đương nhưng là việc đáng làm |
@@ -345,7 +363,7 @@ chất lượng — nếu bước này bị cắt thì cả hệ thống mất c
 **Câu hỏi AI phản biện v0 (nếu có):**
 
 - **Field nào mơ hồ:** AI chỉ ra bốn chỗ. (1) *Impact* trộn một con số có thật (40–60'/tuần) với ba hậu quả chưa hề đo, dễ tạo cảm giác bài toán đau hơn thực tế. (2) *Success Metric* số (3) — "action item bị rơi" — phụ thuộc vào chính cái note đang thiếu, nên không có cách đo độc lập. (3) *Actor* mới có đúng một người thật (Dũng), chưa đủ để nói đây là vấn đề của một nhóm người. (4) *Boundary* chưa nói ai chịu trách nhiệm khi note sai mà vẫn được dùng để ra quyết định.
-- **Tôi sửa gì:** (1) Tách rõ trong bảng: cái nào `[ĐO]`, cái nào `[CHƯA ĐO]`, và không cộng dồn chúng lại thành một con số impact duy nhất. (2) Đổi cách đo action item sang một tiêu chí quan sát được từ bên ngoài: đếm số việc được **nhắc lại ở meeting kế tiếp** mà note buổi trước không hề có — người khác kiểm được, không phụ thuộc trí nhớ người viết. (3) Thêm poll lớp để biết đây là vấn đề của bao nhiêu người, và cam kết hạ xuống Not Yet nếu tần suất trung vị dưới 2 meeting/tuần. (4) Thêm vào Boundary một dòng trách nhiệm: note đã qua review là trách nhiệm của người review, AI không được viện dẫn làm lý do — điều này đi thẳng vào PS v1.
+- **Tôi sửa gì:** (1) Tách rõ trong bảng: cái nào `[ĐO]`, cái nào `[CHƯA ĐO]`, và không cộng dồn chúng lại thành một con số impact duy nhất. (2) Đổi cách đo action item sang một tiêu chí quan sát được từ bên ngoài: đếm số việc được **nhắc lại ở meeting kế tiếp** mà note buổi trước không hề có — người khác kiểm được, không phụ thuộc trí nhớ người viết. (3) Soạn bộ câu hỏi khảo sát để biết đây là vấn đề của bao nhiêu người, và cam kết trước là hạ xuống Not Yet nếu tần suất trung vị dưới 2 meeting/tuần — dù chưa kịp gửi khảo sát, nhóm vẫn giữ nguyên cam kết này vì nó là điều kiện, không phải kết quả. (4) Thêm vào Boundary một dòng trách nhiệm: note đã qua review là trách nhiệm của người review, AI không được viện dẫn làm lý do — điều này đi thẳng vào PS v1.
 - **Ý nhóm bỏ không dùng:** AI đề xuất mở rộng thành "hệ thống quản lý tri thức cho cả team" và "tự động đồng bộ action item sang Jira". Nhóm bỏ cả hai: ý đầu đổi hẳn bản chất bài toán từ note cá nhân sang knowledge base tổ chức; ý sau chính là thứ đẩy bài lên mức Agent và phá vỡ boundary "không tự tạo task".
 
 ---
@@ -474,7 +492,9 @@ xin ai.
 Go vì Phase 4 đã trả lời được câu hỏi nhóm tự đặt ra — tác động ngoài 10-15 phút là có
 thật: action item bị rơi, phải hỏi lại đồng đội, note cũ đọc lại không hiểu. Nhóm đã cam
 kết trước rằng nếu không tìm ra tác động nào ngoài thời gian thì hạ xuống Not Yet, nên đây
-là một quyết định có điều kiện đã được kiểm, không phải kết luận có sẵn từ đầu.
+là một quyết định có điều kiện đã được kiểm, không phải kết luận có sẵn từ đầu. Phải nói
+kèm giới hạn: câu trả lời này đến từ n = 1, nên nó đủ để mở một pilot 1 người, KHÔNG đủ để
+nói cả team đều gặp — và đó chính là lý do scope bị giữ ở mức 1 người 3 tuần.
 
 "Có điều kiện" vì hai trong bốn metric hiện `[CHƯA ĐO]`. Nhóm không lấy đó làm cớ để hoãn,
 nhưng cũng không giả vờ là đã có baseline: tuần 1 của pilot được dành riêng để đo, và chạy
@@ -568,14 +588,15 @@ Dấu hiệu cảnh báo cần soi kỹ chứ không được mừng:
 
 ### Self-check nộp phần 02 (nhóm)
 - [x] Có nhật ký hội tụ 14 → 1 (cluster 4 cụm + shortlist 2+1 + bảng score có giải thích điểm cực trị)
-- [x] Có validation (3 interview + poll + đếm Calendar) + research (5 tool, link chính thức kiểm được, không trích số liệu không verify)
+- [x] Có validation (1 nguồn trong cuộc khai thác sâu + đếm Calendar + bộ câu hỏi khảo sát kèm quy tắc quyết định chốt trước; nhóm tự ghi rõ đây là mắt xích yếu nhất) + research (5 tool, link chính thức kiểm được, không trích số liệu không verify)
 - [x] Có workflow trước/sau đủ thời gian, actor, handoff, bottleneck, boundary, fallback
 - [x] Có PS v0 → v1, metric có trước/sau + cách đo, boundary có làm/không làm
 - [x] Có so sánh Rule/Workflow/Agent trên cùng một bài + 5 câu hỏi chốt + Decision Go có điều kiện kèm lý do và ngưỡng rollback
 
 ### Việc nhóm phải hoàn tất trước khi nộp bản cuối
-- [x] Quote nguyên văn từ 3 buổi phỏng vấn — đã điền ở bảng 4.1
-- [x] Poll 6 bạn trong lớp K4A — đã có số mẫu, kết quả 5 câu và tín hiệu phản bác
+- [x] Khai thác sâu nguồn người trong cuộc (Dũng) — đã có ở bảng 4.1, kèm tín hiệu phản bác
 - [x] Đếm Calendar 4 tuần của Dũng — tần suất 3–4 meeting/tuần, đã đánh dấu `[ĐO]`
+- [x] Soạn xong bộ 5 câu khảo sát + chốt quy tắc quyết định TRƯỚC khi có dữ liệu
+- [ ] Gửi bộ 5 câu đó ra ngoài nhóm (mục tiêu 8–12 người) — chưa kịp trong buổi lab
 - [ ] Bấm giờ 5 buổi để nâng baseline `10–15'` từ `[ƯỚC]` lên `[ĐO]` — làm trong tuần 1 của pilot
 - [ ] Đếm 2 tuần để lấy baseline cho 2 metric còn `[CHƯA ĐO]` (tỉ lệ meeting có note trong 24h, số action item bị rơi) — cũng nằm trong tuần 1 của pilot
