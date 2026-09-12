@@ -6,13 +6,13 @@
 
 - Họ và tên: Đặng Quốc Hiệp
 - Mã học viên: 2A202602755
-- Vai trò / bối cảnh: Sinh viên đang học lớp AI Thực Chiến K4A, song song đi intern mảng AI/Data ở một team nhỏ (3 intern + 1 mentor)
+- Vai trò / bối cảnh: Sinh viên đang học lớp AI Thực Chiến K4A, song song đi dạy thêm/gia sư Toán - Lý cho 5 học sinh cấp 3 (dạy 1-1 và nhóm 2 em), 7 buổi/tuần, mỗi buổi 90 phút
 - Công việc hằng tuần (3-5 gạch đầu dòng để soi problem):
-  - Chạy và so sánh các thí nghiệm ML nhỏ theo task mentor giao (~12 run/tuần), ghi lại kết quả để mentor review.
-  - Làm sạch và chuẩn hoá dataset CSV nhận từ nhiều nguồn khác nhau (~2 lần/tuần).
-  - Học các môn trên lớp + lớp AI Thực Chiến: đọc paper/slide, làm bài nhóm, nộp lab hằng tuần lên GitHub.
-  - Trao đổi với lớp và TA qua Discord (channel chung + channel nhóm), theo dõi deadline và thay đổi lịch học ở đó.
-  - Hỗ trợ 3 bạn trong nhóm bài tập chạy được code của mình (setup môi trường, đường dẫn dataset).
+  - Soạn bài cho từng buổi theo đúng trình độ từng em: ghép bài tập từ sách, đề thi cũ và kho file PDF/ảnh đã tải (~45 phút/buổi).
+  - Chấm bài tập về nhà, khoanh chỗ sai và viết nhận xét cho từng em sau mỗi buổi.
+  - Nhắn báo tình hình cho 5 phụ huynh, và viết báo cáo dài hơn vào cuối tháng.
+  - Xếp lịch và đổi lịch dạy khi học sinh bận, phải khớp với lịch học trên trường của mình.
+  - Học trên lớp + lớp AI Thực Chiến: làm bài nhóm, nộp lab hằng tuần lên GitHub.
 
 ---
 
@@ -22,23 +22,23 @@
 
 | # | Lăng kính (Lặp lại / Tốn thời gian / AI có thể tốt hơn / Pain từ người khác) | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật (số + bằng chứng) |
 |---|---|---|---|---|
-| 1 | Lặp lại | Trước mỗi lần nộp lab phải tự đối chiếu bài với rubric + self-check xem thiếu mục nào | Mình + 3 bạn trong nhóm, rộng hơn là ~20 bạn lớp K4A | Bấm giờ 2 lần gần nhất: 41' và 34' cho cả quy trình kiểm + sửa, riêng bước đối chiếu ~12'. Lab Day01 mình vẫn sót 2 mục self-check, phải push sửa sau deadline |
-| 2 | Lặp lại | Ghi tay config + kết quả mỗi run thí nghiệm vào Google Sheet | Mình + 2 intern cùng team; mentor là người đọc lại sheet | ~12 run/tuần, mỗi run ~6' thao tác ghi chép. Tuần trước 2/12 run thiếu seed và dataset version nên không tái lập được, phải chạy lại mất ~25' |
-| 3 | Tốn thời gian | Tìm lại thông tin/quyết định đã chốt trong Discord lớp (đổi deadline, format nộp, câu trả lời của TA) | ~20 bạn trong lớp, nặng nhất là bạn vắng buổi hoặc đọc muộn | Bấm giờ 3 lần tìm trong tuần: 8', 12', 6'. Channel chung ~200 tin/ngày. Quan sát ~2 câu hỏi trùng nội dung mỗi tuần, TA phải trả lời lại |
-| 4 | Tốn thời gian | Đọc 1 paper 10-14 trang chỉ để lấy 3 ý cho buổi seminar: method, dataset, kết quả chính | Mình + 3 bạn nhóm seminar | 60-75'/paper, 2 paper/tuần. Phần lớn thời gian nằm ở đoạn dò Section 3-4 để tìm đúng phần method |
-| 5 | Pain từ người khác | Mentor phải hỏi lại "task này đang ở đâu, đang kẹt gì" vì card trên Notion không được cập nhật kịp | Mentor + 3 intern | 2-3 lần hỏi lại/tuần trên Slack, mỗi lần cắt ngang công việc ~10'. Quote mentor: "Em update card giúp anh, anh không biết đang chờ ai" |
-| 6 | Pain từ người khác | Bạn cùng nhóm hỏi lại cùng một câu về cách chạy code của mình (env, đường dẫn dataset) | 3 bạn trong nhóm bài tập | 4 lần trong 2 tuần, mỗi lần mình mất 15-20' hướng dẫn lại gần như y hệt |
-| 7 | Tốn thời gian | Làm sạch dataset CSV từ nhiều nguồn: khác header, khác định dạng ngày, khác encoding | Mình; mentor phải chờ dữ liệu sạch mới review được | 40-50'/lần, ~2 lần/tuần. Lần gần nhất phát hiện sai định dạng ngày sau khi đã train xong, mất thêm 1 lượt chạy |
-| 8 | AI có thể tốt hơn | Search trong Drive/LMS môn học chỉ khớp tên file, không khớp nội dung slide | ~20 bạn trong lớp | Tìm lại "slide có phần đánh giá mô hình" mất 5-10'/lần, tuần trước 3 lần. Tên file kiểu `Buoi5_v2_final.pdf` nên không đoán được nội dung |
-| 9 | Lặp lại | Nhớ và làm đúng convention đặt tên repo/thư mục/file khi nộp bài | ~20 bạn trong lớp | Ở Day01, mình đếm trong channel có 5 bạn bị nhắc sửa lại cấu trúc repo hoặc tên file trước khi được chấm |
-| 10 | AI có thể tốt hơn | Notification Discord quá dày nên bỏ lỡ thông báo quan trọng | Mình + các bạn theo dõi nhiều channel | ~200 tin/ngày ở channel chung. Tuần trước bỏ lỡ 1 thông báo đổi giờ buổi học, đến muộn 15' |
+| 1 | Lặp lại | Soạn bài cho mỗi buổi: chọn và ghép bài tập từ nhiều nguồn theo đúng trình độ từng em | Mình; 5 học sinh nhận đề không vừa sức | Bấm giờ 3 buổi gần nhất: 45', 52', 38'. 7 buổi/tuần nên tổng ~5 tiếng/tuần. 3/5 em học cùng chương nhưng vẫn phải soạn riêng vì tốc độ khác nhau |
+| 2 | Tốn thời gian | Tổng hợp lỗi sai lặp lại của từng em để biết nên ôn lại dạng nào | Mình; học sinh vì cứ sai mãi một dạng | Hiện không làm có hệ thống. Cuối tháng lật lại 4 tuần bài chấm mất ~40'/em nên thực tế chỉ làm cho 2/5 em. Có 1 em học 3 tháng vẫn sai cùng dạng biến đổi dấu |
+| 3 | Pain từ người khác | Phụ huynh không biết con mình đang tiến bộ hay hổng chỗ nào, phải nhắn hỏi | 5 phụ huynh; mình phải lục lại bài để trả lời | 3-4 tin hỏi/tuần, phần lớn vào tối muộn. Quote một phụ huynh: "Em thấy cháu vẫn điểm thấp, không biết đang hổng chỗ nào". Mỗi lần trả lời mình lục lại vở/bài chấm ~10' |
+| 4 | Lặp lại | Chấm bài về nhà và viết nhận xét cho từng em | Mình; học sinh nhận nhận xét chung chung | 15-20'/em/buổi, 7 buổi/tuần nên ~2 tiếng/tuần. Đọc lại 10 nhận xét gần nhất thì 6 cái gần như cùng một câu "em cẩn thận hơn ở phần biến đổi" |
+| 5 | AI có thể tốt hơn | Tìm lại một bài tập cụ thể trong kho đề PDF/ảnh đã tải | Mình | ~150 file trong Drive, tên kiểu `de_on_tap_2.pdf`, `IMG_2734.jpg`. Tìm "bài hình có đường tròn nội tiếp" mất 8-12'/lần, 2-3 lần/tuần. Nội dung nằm trong ảnh scan nên không search text được |
+| 6 | Lặp lại | Xếp và đổi lịch dạy khớp giữa lịch học sinh và lịch học trên trường của mình | Mình + 5 học sinh + phụ huynh | 2-3 lần đổi lịch/tuần, mỗi lần nhắn qua lại 10-15' để dò khung giờ trống. Tháng trước trùng lịch 2 em, phải hủy gấp 1 buổi |
+| 7 | Tốn thời gian | Viết báo cáo cuối tháng cho phụ huynh: học được gì, còn yếu gì, tháng sau làm gì | Mình + 5 phụ huynh | 25-30'/em x 5 em = ~2.5 tiếng/tháng. Hay bị trì hoãn, tháng trước gửi trễ 4 ngày so với lời hứa |
+| 8 | Pain từ người khác | Học sinh quên làm hoặc quên mang bài tập về nhà | 2/5 em thường xuyên; cả buổi học bị ảnh hưởng | 2/5 em quên ít nhất 1 lần/tuần, mỗi lần mất 10-15' đầu buổi để chữa cháy, phần kiến thức định dạy bị đẩy sang buổi sau |
+| 9 | Pain từ người khác | Nhận học sinh mới phải dò lỗ hổng kiến thức thủ công và vẫn dò sót | Học sinh mới + mình | 2 em mới trong 2 tháng, mỗi em mất trọn 1 buổi 90' chỉ để dò trình độ. 1 em sau 2 tuần mới lộ ra hổng kiến thức từ lớp dưới, phải quay lại dạy bù |
+| 10 | Lặp lại | Trước mỗi lần nộp lab lớp K4A phải tự đối chiếu bài với rubric và self-check | Mình + ~20 bạn trong lớp | Bấm giờ 2 lần gần nhất: 41' và 34'. Lab Day01 mình sót 2 mục self-check, phải push sửa sau deadline. Trong channel có 5 bạn bị nhắc sửa lại bài |
 
 > Gợi ý tự soi: tuần trước mất nhiều thời gian nhất vào việc gì? Việc gì hay trì hoãn? Người khác hay hỏi lại câu gì? Workflow nào ai cũng biết là chậm?
 
 **AI đã dùng ở Phase 1 (nếu có):**
-- Prompt đã hỏi: "Tôi là sinh viên đang intern mảng AI/Data. Việc hằng tuần của tôi gồm: chạy thí nghiệm ML, làm sạch dataset, học trên lớp, nộp lab hằng tuần, trao đổi qua Discord. Tôi đã tự nghĩ ra 6 vấn đề: [liệt kê 6 dòng đầu]. Hãy gợi ý thêm problem theo 4 lăng kính, mỗi gợi ý ghi rõ actor, workflow sơ bộ và cách đo. Đừng đưa ý tưởng rộng kiểu xây trợ lý AI toàn năng."
-- Ý dùng được: gợi ý "nhìn vào chỗ dữ liệu bị mất khi bàn giao" giúp mình nhớ ra dòng 7 (làm sạch CSV) và dòng 5 (Notion không cập nhật nên mentor phải hỏi lại). Gợi ý "nhìn vào câu người mới hay hỏi" ra dòng 6 và dòng 9.
-- Ý bỏ vì không phải pain thật: "trợ lý AI cá nhân hoá lộ trình học tập", "chatbot tư vấn chọn môn", "hệ thống dự đoán điểm". Ba ý này mình chưa từng thấy ai trong lớp thật sự kẹt, và không vẽ được workflow hiện tại nên bỏ.
+- Prompt đã hỏi: "Tôi là sinh viên đi dạy thêm Toán - Lý cho 5 học sinh cấp 3, 7 buổi/tuần. Việc hằng tuần gồm: soạn bài theo trình độ từng em, chấm bài và viết nhận xét, báo tình hình cho phụ huynh, xếp lịch dạy. Tôi đã tự nghĩ ra 6 vấn đề: [liệt kê 6 dòng đầu]. Hãy gợi ý thêm problem theo 4 lăng kính, mỗi gợi ý ghi rõ actor, workflow sơ bộ và cách đo. Đừng đưa ý tưởng rộng kiểu xây trợ lý AI toàn năng."
+- Ý dùng được: gợi ý "nhìn vào lúc bắt đầu một quan hệ mới" giúp mình nhớ ra dòng 9 (nhận học sinh mới phải dò trình độ thủ công) — đây là việc mình vẫn làm nhưng chưa từng coi là một problem. Gợi ý "nhìn vào người ở đầu kia của thông tin" giúp mình tách dòng 3 (phụ huynh không nắm được tiến độ) ra khỏi dòng 7 (báo cáo cuối tháng), trước đó mình gộp làm một.
+- Ý bỏ vì không phải pain thật: "xây app quản lý lớp học toàn diện", "chatbot giải bài cho học sinh 24/7", "hệ thống chấm điểm tự động bằng AI". Ý đầu quá rộng; hai ý sau thì mình không muốn vì nếu học sinh hỏi máy thay vì hỏi mình, phần dạy thật sự bị mất đi chứ không được lợi.
 
 **Self-check Phase 1:**
 - [x] Đủ 5+ dòng, mỗi dòng có actor + số đo cụ thể
@@ -55,64 +55,69 @@ Giữ bài nào: actor cụ thể, workflow vẽ được 3-7 bước, bottlenec
 
 | Rank | Problem (copy từ bảng scan) | Vì sao chọn (2-3 ý) | Điều còn chưa chắc |
 |---|---|---|---|
-| 1 | #1 — Tự đối chiếu bài nộp với rubric trước khi nộp lab | Mình là actor trực tiếp nên có baseline bấm giờ thật, không phải ước lượng. Workflow 6 bước, nghẽn gọn ở đúng 1 bước là đối chiếu rubric ↔ nội dung. Tách được rất rõ phần Rule (cấu trúc file) và phần cần đọc hiểu (nội dung đủ ý chưa) nên so sánh Rule / Workflow / Agent được trên cùng một bài | Chuẩn "mục này viết đủ hay chưa" mang tính chủ quan, chưa có ground truth. Baseline "sót 2 mục" mới chỉ từ 1 lần nộp của riêng mình |
-| 2 | #2 — Ghi tay config + kết quả mỗi run thí nghiệm | Tần suất cao (12 run/tuần) và hậu quả đo được (2 run phải chạy lại). Bằng chứng nằm ngay trên sheet hiện tại: có cột bị bỏ trống | Nhiều khả năng đây là bài của script chứ không phải của AI. Nếu vậy thì có đủ "chất" để nhóm đào sâu cả buổi không |
-| 3 | #3 — Tìm lại quyết định/thông tin đã chốt trong Discord lớp | Nhiều người cùng đau chứ không chỉ mình, có dấu hiệu khách quan là câu hỏi trùng lặp trong channel. Hậu quả rõ khi dùng nhầm thông tin đã bị cập nhật | Quyền truy cập lịch sử channel và vấn đề riêng tư. Dễ phình thành bài "làm search cho mọi thứ" |
+| 1 | #2 — Tổng hợp lỗi sai lặp lại của từng học sinh | Có hậu quả thật nhìn thấy được chứ không chỉ tốn thời gian: 1 em học 3 tháng vẫn sai cùng một dạng. Workflow 5 bước, nghẽn gọn ở bước tổng hợp cuối tháng. Đặc biệt hợp để so sánh Rule / Workflow / Agent vì một bảng ghi tay 2 phút/buổi có thể đã giải gần hết | Chưa có baseline thật: hiện mình còn chưa có bảng theo dõi nào nên "1-2 dạng lỗi bị lặp" mới là quan sát định tính. Danh mục dạng lỗi do mình tự nghĩ ra, có thể lệch |
+| 2 | #1 — Soạn bài theo trình độ từng em | Tần suất cao nhất và tốn nhiều thời gian nhất trong tuần (~5 tiếng). Bottleneck rõ ở bước chọn bài đúng mức. Có rủi ro đáng bàn: đề sai đáp án thì học sinh và phụ huynh mất niềm tin ngay | Khó đo "đề có vừa sức không" một cách khách quan. Phần lớn giá trị có thể đến từ việc tag lại kho đề chứ không phải từ AI |
+| 3 | #5 — Tìm lại bài tập trong kho 150 file PDF/ảnh | Đo được sạch sẽ nhất: 8-12 phút/lần, 2-3 lần/tuần, đếm được ngay. Non-AI alternative rất mạnh nên là ví dụ tốt để nhóm thấy Rule không hề kém | Chỉ mình là actor nên impact hẹp. Có thể chỉ là hệ quả của việc mình lười đặt tên file, tức là process fix chứ không phải bài toán cần AI |
 
 ### 2.2. Problem Cards chi tiết (lặp lại cho cả 3 cards)
 
 ---
 
-#### Problem Card #1 — Đối chiếu bài nộp với rubric trước khi nộp lab
+#### Problem Card #1 — Theo dõi lỗi sai lặp lại của từng học sinh
 
 ```text
 Problem 1 câu:
-Trước mỗi lần nộp lab, sinh viên mất 30-40 phút tự đối chiếu bài với rubric và self-check,
-trong đó bước map từng tiêu chí rubric sang nội dung đã viết tốn nhất và vẫn bị sót mục.
+Gia sư chấm bài mỗi buổi nhưng không lưu lại lỗi sai một cách có hệ thống, nên phải mất
+~40 phút/em mỗi tháng lật lại bài cũ mới biết em đó đang lặp lỗi gì; vì tốn nên thực tế
+chỉ làm cho 2/5 em, dẫn tới có em sai cùng một dạng suốt 3 tháng mà không được ôn lại.
 
 Actor:
-Sinh viên lớp AI Thực Chiến K4A là người nộp bài (~20 người); quan sát trực tiếp được là
-mình và 3 bạn trong nhóm. Người chịu ảnh hưởng thứ hai là TA vì phải nhắc sửa lại bài.
+Mình là người chấm và người phải tổng hợp. Người chịu hậu quả trực tiếp là học sinh vì
+cứ sai mãi một dạng; người chịu hậu quả gián tiếp là phụ huynh vì điểm không cải thiện.
 
 Thời điểm / bối cảnh:
-1-2 tiếng trước deadline nộp repo lab, 1-2 lần/tuần.
+Sau mỗi buổi dạy khi chấm bài về nhà (28 buổi/tháng), và cuối mỗi tháng khi lên kế hoạch
+ôn tập cho từng em.
 
 Current workflow 3-7 bước:
-1. Mở README rubric + phần self-check trong worksheet (3')
-2. Mở lại từng file bài nộp, đọc lướt xem đã viết gì (5')
-3. Đối chiếu từng tiêu chí rubric với nội dung đã viết, nhảy qua lại 2 tab (12')
-4. Sửa những chỗ thiếu hoặc còn chung chung (10-20')
-5. Kiểm cấu trúc thư mục và tên file theo convention (4')
-6. Commit, push, mở lại trên GitHub kiểm tra hiển thị (3')
+1. Chấm bài về nhà của em đó, khoanh chỗ sai (12'/buổi)
+2. Viết nhận xét ngắn vào vở hoặc nhắn cho em (5'/buổi)
+3. Không có bước nào lưu lại lỗi đó vào đâu cả — mình chỉ nhớ mang máng (0')
+4. Cuối tháng lật lại 4 tuần bài đã chấm để tìm lỗi nào lặp (40'/em)
+5. Từ danh sách đó chọn dạng bài để ôn lại trong buổi tới (10'/em)
 
 Bottleneck:
-Bước 3. Rubric viết theo tiêu chí ("metric phải có hiện trạng, mục tiêu và cách đo"),
-còn bài viết theo mạch kể chuyện, nên phải tự đọc hiểu rồi map hai bên với nhau.
-Đây là bước duy nhất không làm được bằng Ctrl+F.
+Bước 4. Gốc rễ nằm ở bước 3 không tồn tại: lỗi sai nằm rải trong vở giấy và ảnh chụp,
+không có nơi tổng hợp, nên cuối tháng phải lật lại thủ công. Và vì bước 4 tốn tới 40
+phút nên thực tế mình bỏ qua với 3/5 em — tức bottleneck này không chỉ làm chậm, nó làm
+cả công đoạn bị bỏ luôn.
 
 Impact:
-30-45'/lần nộp x ~1.5 lần/tuần = ~50-65'/tuần cho riêng mình.
-Lab Day01 mình sót 2 mục self-check và phải push sửa sau deadline.
-Trong channel lớp, mình đếm được 5 bạn bị nhắc sửa lại bài ở Day01.
+Nếu làm đủ: 50'/em/tháng x 5 em = ~4 tiếng/tháng. Thực tế mình chỉ làm cho 2/5 em.
+Hậu quả thật quan sát được: 1 em học 3 tháng vẫn sai cùng dạng biến đổi dấu, và 6/10
+nhận xét gần nhất của mình gần như cùng một câu vì mình không nhớ em đó sai cụ thể gì.
 
 Success metric:
-- Thời gian bước đối chiếu: 12' -> dưới 4' (bấm giờ 3 lần nộp kế tiếp, lấy trung bình).
-- Số mục rubric bị sót ở bản nộp đầu: 2 -> 0, đo bằng số comment nhắc sửa của TA và
-  số lần phải push sửa sau deadline, theo dõi trong 3 lần nộp.
+- Thời gian tổng hợp lỗi: 40'/em/tháng -> dưới 10'/em/tháng (bấm giờ trong 2 tháng).
+- Số dạng lỗi lặp quá 3 buổi mà chưa được đưa vào buổi ôn: hiện chưa đo được, nên việc
+  đầu tiên là ghi tay 2 tuần để lấy baseline thật, sau đó mục tiêu đưa về 0 trong 6 tuần.
+- Tỉ lệ em được tổng hợp lỗi hằng tháng: 2/5 -> 5/5.
 
 Non-AI alternative:
-Một file checklist markdown dùng lại được + script grep kiểm cấu trúc thư mục, tên file,
-heading rỗng và ô self-check chưa tick. Giải được nhóm lỗi "thiếu file / thiếu mục",
-nhưng không phát hiện được lỗi "có viết nhưng viết chung chung, metric không có cách đo".
+Một bảng ghi tay ngay sau khi chấm: ngày, tên em, dạng lỗi, lần thứ mấy. Tốn thêm ~2
+phút/buổi (tức ~56 phút/tháng) nhưng xoá gần như trọn vẹn 40 phút lật lại cuối tháng.
+Tính ra phương án này tiết kiệm nhiều hơn phương án AI, và không có rủi ro gán sai nhãn.
 
 AI hypothesis:
-AI đọc bài nộp cùng rubric, trả về bảng 3 cột: mục nào đã đủ / thiếu hẳn / có viết
-nhưng còn mơ hồ, kèm trích dẫn đúng đoạn văn trong bài. Người vẫn tự quyết sửa gì.
+AI đọc ảnh chụp bài đã chấm, gán nhãn dạng lỗi theo danh mục mình định nghĩa sẵn (sai
+dấu, sai công thức, sai đơn vị, thiếu bước lập luận, tính nhầm số) rồi đếm tần suất.
+Giá trị thật của AI ở đây không phải tiết kiệm thời gian mà là tính nhất quán: mình ghi
+tay thì hôm mệt sẽ ghi sót hoặc gọi tên lỗi mỗi hôm một kiểu.
 
 Quick gut:
 [ ] No AI / process fix
-[ ] Rule
-[x] Workflow        <- Rule cho bước kiểm cấu trúc, AI cho bước đánh giá nội dung
+[x] Rule            <- ghi tay/bảng có sẵn danh mục lỗi, thử 2 tuần trước đã
+[ ] Workflow           chỉ leo lên Workflow nếu sau 2 tuần mình không duy trì nổi
 [ ] Agent
 [ ] Chưa biết
 ```
@@ -120,80 +125,91 @@ Quick gut:
 **Draft workflow Card #1** (ASCII / Mermaid / ảnh đính kèm):
 
 ```text
-CURRENT STATE — 37 phút (đo ở lần nộp gần nhất)
+CURRENT STATE — 17'/buổi + 50'/em/tháng
 
-[1 Mở rubric + self-check: 3']
-→ [2 Đọc lướt bài đã viết: 5']
-→ [3 Đối chiếu rubric ↔ nội dung: 12']   <-- bottleneck, làm tay, vẫn sót 2 mục
-→ [4 Sửa chỗ thiếu: 14']
-→ [5 Kiểm cấu trúc file: 4']
-→ [6 Commit + push + xem lại: 3']
+[1 Chấm bài, khoanh chỗ sai: 12']
+→ [2 Viết nhận xét vào vở: 5']
+→ [3 (không có bước lưu lỗi lại) — chỉ nhớ mang máng: 0']   <-- gốc rễ vấn đề
+→ [4 Cuối tháng lật lại 4 tuần bài chấm tìm lỗi lặp: 40'/em]   <-- bottleneck
+→ [5 Chọn dạng bài để ôn lại: 10'/em]
 
-FUTURE STATE — 16 phút
+Thực tế: bước 4-5 chỉ làm được cho 2/5 em.
 
-[1 Script kiểm cấu trúc + heading rỗng + ô self-check: 0.5' - máy/Rule]
-→ [2 AI đối chiếu nội dung với rubric, xuất bảng đủ/thiếu/mơ hồ kèm trích dẫn: 1' - AI]
-→ [3 Mình đọc bảng, tự quyết giữ hay bỏ từng cảnh báo: 3']   <-- human boundary
-→ [4 Sửa chỗ thiếu: 9']
-→ [5 Commit + push + xem lại: 2.5']
+FUTURE STATE — phương án Rule (thử trước): 19'/buổi + 12'/em/tháng
 
-Boundary: AI chỉ đánh dấu và trích dẫn, không tự sửa nội dung bài.
-Fallback: AI báo sai hoặc bỏ sót → quay lại checklist tay như hiện tại (mất thêm 12').
-Rủi ro: AI nói "đủ rồi" trong khi thực tế còn thiếu, nên vẫn giữ 1 lượt mình tự đọc rubric.
+[1 Chấm bài, khoanh chỗ sai: 12']
+→ [2 Tick dạng lỗi vào bảng có sẵn danh mục 5 nhãn: 2' - Rule]   <-- bước còn thiếu
+→ [3 Viết nhận xét dựa trên đúng lỗi vừa tick: 5']
+→ [4 Cuối tháng đọc bảng đã tự đếm sẵn, chọn dạng ôn: 12'/em]
+
+Phương án Workflow (chỉ dùng nếu Rule không duy trì được):
+[1 Chấm bài: 12'] → [2 Chụp ảnh bài đã chấm: 0.5' - máy]
+→ [3 AI gán nhãn lỗi từ đúng 5 nhãn cố định + đếm tần suất: 0.5' - AI]
+→ [4 Mình xác nhận hoặc sửa nhãn: 1.5']   <-- human boundary
+→ [5 Viết nhận xét: 5'] → [6 Cuối tháng đọc bảng: 12'/em]
+
+Phép tính so sánh trong 1 tháng (28 buổi, 5 em):
+- Hiện tại: 50' x 5 em = 250' (nhưng chỉ làm 2 em nên thực chi ~100', phần còn lại là nợ)
+- Rule:     2' x 28 buổi + 12' x 5 em = 56' + 60' = 116' và làm đủ cho 5/5 em
+- Workflow: 2.5' x 28 buổi + 12' x 5 em = 70' + 60' = 130', tốn hơn Rule và thêm rủi ro
+
+Boundary: AI chỉ được gán nhãn trong đúng 5 nhãn đã định nghĩa, không tự nghĩ nhãn mới,
+không tự viết nhận xét gửi cho học sinh hay phụ huynh.
+Fallback: AI gán sai hoặc đọc không ra chữ viết tay → mình tick tay như phương án Rule.
+Rủi ro: AI đọc ảnh bài viết tay tiếng Việt kèm ký hiệu toán là việc khó, và mình là
+người duy nhất kiểm nên nếu mình lười xác nhận thì nhãn sai sẽ trôi thẳng vào bảng.
 ```
 
 File đính kèm (nếu vẽ riêng): chưa có, workflow vẽ trực tiếp bằng ASCII ở trên.
 
 ---
 
-#### Problem Card #2 — Ghi tay config và kết quả mỗi run thí nghiệm
+#### Problem Card #2 — Soạn bài theo đúng trình độ từng em
 
 ```text
 Problem 1 câu:
-Mỗi run thí nghiệm, intern mất ~6 phút gõ tay config và kết quả vào Google Sheet, và vì
-gõ tay nên tuần trước có 2/12 run thiếu seed, dataset version, không tái lập lại được.
+Mỗi buổi dạy, gia sư mất ~45 phút chọn và ghép bài tập cho vừa sức từng em từ kho đề
+rời rạc, và vẫn có khoảng 2/7 buổi phải đổi đề giữa chừng vì quá dễ hoặc quá khó.
 
 Actor:
-Mình và 2 intern cùng team là người ghi; mentor là người đọc lại sheet để so sánh kết quả.
+Mình là người soạn. 5 học sinh là người nhận đề, trong đó 3 em học cùng chương nhưng
+tốc độ khác nhau nên không dùng chung một bộ đề được.
 
 Thời điểm / bối cảnh:
-Ngay sau mỗi lần chạy xong 1 run train/eval trên máy lab, ~12 run/tuần.
+Tối hôm trước hoặc sát giờ dạy, 7 lần/tuần.
 
 Current workflow 3-7 bước:
-1. Sửa config (lr, batch size, seed, dataset version) trong file hoặc CLI args (2')
-2. Chạy run và chờ kết quả (thời gian chờ không tính vào thao tác tay)
-3. Copy số liệu metric từ terminal/log (2')
-4. Mở Google Sheet, dán metric và gõ lại config bằng tay (3')
-5. Đặt tên run + ghi note ngắn "chạy để thử gì" (1')
-6. Cuối tuần lọc lại sheet để so sánh các run (10'/tuần)
+1. Xem lại buổi trước dạy tới đâu, em đó yếu dạng nào (5')
+2. Mở kho file PDF/ảnh đề, tìm bài phù hợp (12')
+3. Chọn 8-12 bài, sắp theo độ khó tăng dần (15')
+4. Ghép vào một file hoặc in ra, tự giải trước để chắc đáp án (15')
+5. Chuẩn bị 2-3 bài dự phòng nếu em làm nhanh hơn dự kiến (5')
 
 Bottleneck:
-Bước 4. Config đã tồn tại sẵn trong máy nhưng vẫn phải gõ lại bằng tay sang chỗ khác.
-Đây vừa là chỗ tốn thời gian vừa là nơi phát sinh lỗi thiếu field.
+Bước 2-3. Kho đề không có nhãn theo chương và mức độ, nên mỗi lần soạn là một lần lục
+lại từ đầu. Việc "ước lượng bài này vừa sức em nào" hoàn toàn nằm trong đầu mình.
 
 Impact:
-~6'/run x 12 run = ~72'/tuần thao tác tay cho một người, nhân với 3 intern.
-Rủi ro lớn hơn cả thời gian: 2/12 run tuần trước không tái lập được, phải chạy lại ~25'
-và mentor không so sánh được kết quả vì thiếu dataset version.
+~45'/buổi x 7 buổi = ~5 tiếng/tuần, là việc chiếm nhiều thời gian nhất trong tuần của
+mình. Khoảng 2/7 buổi phải đổi đề giữa chừng, mỗi lần mất 10-15' của buổi học.
 
 Success metric:
-- Thời gian ghi log: 6'/run -> dưới 1'/run (bấm giờ 5 run liên tiếp).
-- Số run thiếu field bắt buộc (seed, dataset version, commit hash): 2/12 -> 0/12,
-  đếm trực tiếp trên sheet trong 2 tuần.
+- Thời gian soạn: 45'/buổi -> dưới 20'/buổi (bấm giờ 10 buổi liên tiếp).
+- Số buổi phải đổi đề giữa chừng: 2/7 -> dưới 1/7 (tự ghi lại sau mỗi buổi, theo dõi 3 tuần).
 
 Non-AI alternative:
-Viết một wrapper script: sau mỗi run tự ghi config đang dùng + git commit hash + metric
-ra một dòng CSV/JSON, hoặc dùng thẳng một công cụ tracking thí nghiệm có sẵn.
-Cách này giải gần như trọn vẹn bài toán.
+Đánh nhãn kho đề một lần theo `[Lớp]-[Chương]-[Dạng]-[Mức độ]` và làm một file index.
+Ước tính mất ~4 tiếng làm một lần, sau đó bước 2 gần như biến mất. Đây là phần giải
+quyết được nhiều nhất và nên làm trước, bất kể có dùng AI hay không.
 
 AI hypothesis:
-Rất yếu. Chỗ duy nhất AI có thể thêm giá trị là cuối tuần tóm tắt "run nào tốt nhất và
-khác các run còn lại ở tham số nào", nhưng đó là nice-to-have, không phải bottleneck.
+Sau khi kho đề đã có nhãn, AI gợi ý bộ bài từ mô tả "em này yếu dạng biến đổi dấu, mức
+trung bình khá, cần 10 bài tăng dần". AI chỉ chọn từ kho có sẵn, không tự sinh đề mới.
 
 Quick gut:
 [ ] No AI / process fix
-[x] Rule            <- dữ liệu có cấu trúc, đúng/sai rõ ràng, không có gì mơ hồ cần phán đoán
-[ ] Workflow
+[ ] Rule
+[x] Workflow        <- nhưng phải làm Rule (tag kho đề) trước, AI chỉ có ích sau bước đó
 [ ] Agent
 [ ] Chưa biết
 ```
@@ -201,99 +217,106 @@ Quick gut:
 **Draft workflow Card #2:**
 
 ```text
-CURRENT STATE — ~6 phút thao tác tay / run (chưa tính thời gian chờ chạy)
+CURRENT STATE — 52 phút/buổi (đo ở buổi lâu nhất trong 3 lần bấm giờ)
 
-[1 Sửa config: 2'] → [2 Chạy + chờ] → [3 Copy metric từ log: 2']
-→ [4 Gõ tay config vào Sheet: 3']   <-- bottleneck, nguồn gốc lỗi thiếu field
-→ [5 Đặt tên + note: 1']
-→ [6 Cuối tuần lọc sheet so sánh: 10'/tuần]
+[1 Xem lại buổi trước: 5']
+→ [2 Lục kho đề tìm bài phù hợp: 12']   <-- bottleneck, không có nhãn nên lục lại từ đầu
+→ [3 Chọn 8-12 bài, sắp theo độ khó: 15']   <-- bottleneck
+→ [4 Ghép file + tự giải trước: 15']
+→ [5 Chuẩn bị bài dự phòng: 5']
 
-FUTURE STATE — dưới 1 phút thao tác tay / run
+FUTURE STATE — 19 phút/buổi
 
-[1 Sửa config: 2'] → [2 Chạy + chờ]
-→ [3 Script tự ghi config + git commit hash + metric ra 1 dòng: 0' - máy/Rule]
-→ [4 Mình gõ 1 dòng note "chạy để thử gì": 0.5']   <-- human boundary, phần máy không biết
-→ [5 Cuối tuần đọc bảng đã tự tổng hợp: 4']
+[1 Mở bảng theo dõi lỗi của em đó (lấy từ Card #1): 2']
+→ [2 Lọc kho đề theo nhãn chương + mức độ: 1' - Rule, nhờ đã tag]
+→ [3 AI gợi ý bộ 10 bài tăng dần từ đúng danh sách đã lọc: 1' - AI]
+→ [4 Mình duyệt bộ đề và tự giải 2-3 bài khó nhất: 12']   <-- human boundary
+→ [5 In/gửi: 3']
 
-Fallback: script lỗi hoặc phải chạy trên máy khác → ghi tay như cũ nhưng theo template
-có sẵn đủ field bắt buộc, để ít nhất không sót seed và dataset version.
+Boundary: AI không được tự sinh đề mới, chỉ chọn từ kho đã có và đã được mình kiểm.
+Mình vẫn tự giải các bài khó nhất trước khi đưa cho học sinh.
+Fallback: AI chọn lệch mức → quay lại tự chọn từ danh sách đã lọc (vẫn nhanh hơn hiện
+tại vì bước lọc bằng nhãn đã tiết kiệm được 11').
+Rủi ro lớn nhất: đưa cho học sinh một bài sai đề hoặc sai đáp án. Đây là lý do bước 4
+không được cắt, dù có cắt thì cũng chỉ tiết kiệm thêm 12'.
 ```
 
 File đính kèm: chưa có.
 
 ---
 
-#### Problem Card #3 — Tìm lại quyết định đã chốt trong Discord lớp
+#### Problem Card #3 — Tìm lại một bài tập trong kho 150 file PDF/ảnh
 
 ```text
 Problem 1 câu:
-Sinh viên mất 8-12 phút mỗi lần tìm lại một thông tin đã được chốt trong Discord lớp
-(đổi deadline, format nộp, câu trả lời của TA), và nhiều lúc phải hỏi lại rồi ngồi chờ.
+Khi cần đúng một bài tập đã từng thấy, gia sư mất 8-12 phút lục kho ~150 file PDF/ảnh
+trong Drive vì tên file không mô tả nội dung, và 1-2 lần/tuần phải bỏ cuộc đi tìm nguồn khác.
 
 Actor:
-~20 bạn trong lớp K4A, nặng nhất là bạn vắng buổi hoặc đọc muộn. TA là người chịu ảnh
-hưởng thứ hai vì phải trả lời lặp lại cùng một câu hỏi.
+Chỉ mình là người thao tác. Học sinh chịu ảnh hưởng gián tiếp khi buổi học thiếu đúng
+bài mình định cho làm.
 
 Thời điểm / bối cảnh:
-Lúc chuẩn bị nộp bài hoặc trước buổi học, khi cần xác minh một thông tin đã nói trước đó.
+Lúc soạn bài, hoặc ngay giữa buổi dạy khi học sinh hỏi một dạng mình nhớ là đã có đề.
 
 Current workflow 3-7 bước:
-1. Đoán thông tin nằm ở channel nào (1')
-2. Search keyword, thử cả tiếng Việt có dấu lẫn không dấu, kết quả lệch (3')
-3. Cuộn ngược thread đọc ngữ cảnh, xem thông tin có bị cập nhật lại sau đó không (4')
-4. Vẫn không chắc nên hỏi lại trong channel (1')
-5. Chờ TA hoặc bạn khác trả lời (20' đến vài giờ)
+1. Nhớ mang máng bài đó nằm trong đề nào, của năm nào (1')
+2. Mở Drive, đoán theo tên file, mở thử 3-5 file (5')
+3. Cuộn từng file PDF/ảnh để tìm đúng bài (5')
+4. Không thấy thì lên mạng tìm lại hoặc tự nghĩ ra đề mới (10')
 
 Bottleneck:
-Bước 2-3. Search của Discord khớp từ khoá chứ không hiểu câu hỏi, và thông tin đúng
-thường nằm rải trong một thread dài nên phải đọc mới biết bản nào là bản cuối cùng.
+Bước 2-3. Tên file kiểu `de_on_tap_2.pdf` hoặc `IMG_2734.jpg` không cho biết bên trong
+có gì, và nội dung nằm trong ảnh scan nên tìm bằng chữ cũng không ra.
 
 Impact:
-Riêng mình 3 lần/tuần x ~9' = ~27'/tuần, chưa tính thời gian chờ.
-Trong channel có ~2 câu hỏi trùng nội dung mỗi tuần, tức TA trả lời lại việc đã trả lời.
-Hậu quả nặng nhất là dùng nhầm thông tin cũ khi thông tin đó đã được cập nhật.
+8-12'/lần x 2-3 lần/tuần = ~30'/tuần. Khó chịu nhất là 1-2 lần/tuần phải bỏ cuộc, coi
+như kho 150 file gần như vô dụng ở đúng lúc cần.
 
 Success metric:
-- Thời gian tìm một thông tin đã chốt: ~9' -> dưới 3' (bấm giờ 5 lần tìm).
-- Số câu hỏi trùng nội dung trong channel: ~2/tuần -> dưới 1/tuần (đếm tay trong 2 tuần).
+- Thời gian tìm: ~10' -> dưới 3'/lần (bấm giờ 5 lần tìm).
+- Số lần phải bỏ cuộc đi tìm nguồn khác: 1-2 lần/tuần -> 0 (tự ghi lại trong 3 tuần).
 
 Non-AI alternative:
-Một file `decisions.md` hoặc một message pin duy nhất, TA hoặc lớp trưởng cập nhật sau
-mỗi buổi: ngày, nội dung chốt, link tin nhắn gốc. Rẻ và chính xác, nhưng phụ thuộc hoàn
-toàn vào việc có người chịu duy trì đều đặn hay không.
+Đổi tên toàn bộ file theo quy ước `[Lớp]-[Chương]-[Dạng]-[Mức độ]` và làm một file index
+liệt kê mỗi file có những dạng bài nào. Ước tính ~4 tiếng làm một lần cho 150 file, sau
+đó giải quyết được phần lớn các lần tìm. Đây là cùng một việc với Non-AI alternative của
+Card #2, làm một lần dùng cho cả hai.
 
 AI hypothesis:
-AI đọc lịch sử channel, trả lời câu hỏi bằng ngôn ngữ tự nhiên và bắt buộc kèm link tin
-nhắn gốc + ngày, để người hỏi tự xác minh trước khi tin.
+OCR toàn bộ ảnh/PDF rồi index nội dung, cho phép tìm bằng câu tự nhiên "bài hình có
+đường tròn nội tiếp mức khá". Chỉ đáng làm nếu kho phình lên vài trăm file nữa.
 
 Quick gut:
 [ ] No AI / process fix
-[ ] Rule
-[x] Workflow        <- câu hỏi diễn đạt tự do nên cần hiểu ngôn ngữ, nhưng đường đi cố định:
-[ ] Agent              nhận câu hỏi -> tìm -> trả lời kèm nguồn, không cần tự lập kế hoạch
+[x] Rule            <- đặt tên + index giải được phần lớn, làm 1 lần dùng mãi
+[ ] Workflow
+[ ] Agent
 [ ] Chưa biết
 ```
 
 **Draft workflow Card #3:**
 
 ```text
-CURRENT STATE — 9 phút thao tác + 20' đến vài giờ chờ
+CURRENT STATE — 8-12 phút/lần, 1-2 lần/tuần bỏ cuộc
 
-[1 Đoán channel: 1'] → [2 Search keyword: 3'] → [3 Cuộn thread đọc ngữ cảnh: 4']
-→ [4 Vẫn không chắc, hỏi lại trong channel: 1']   <-- bottleneck: đứt mạch, phải chờ người
-→ [5 Chờ TA trả lời: 20' đến vài giờ]
+[1 Nhớ mang máng nằm ở đề nào: 1']
+→ [2 Đoán theo tên file, mở thử 3-5 file: 5']   <-- bottleneck
+→ [3 Cuộn từng file tìm đúng bài: 5']   <-- bottleneck
+→ [4 Không thấy → lên mạng tìm lại hoặc tự ra đề: 10']
 
-FUTURE STATE — dưới 3 phút, không phải chờ người
+FUTURE STATE — dưới 3 phút/lần
 
-[1 Hỏi bằng câu tự nhiên: 0.5']
-→ [2 AI tìm trong lịch sử channel, trả lời kèm link tin nhắn gốc + ngày: 0.5' - AI]
-→ [3 Mình mở link gốc xác minh, xem có bản cập nhật sau đó không: 1.5']  <-- human boundary
-→ [4 Nếu vẫn không rõ thì mới hỏi TA: 0.5']
+[1 Mở file index, lọc theo Chương + Dạng: 1' - Rule]
+→ [2 Mở đúng 1-2 file ứng viên: 1']
+→ [3 Mình xác nhận đúng bài cần: 0.5']   <-- human boundary
 
-Boundary: AI không được trả lời khi không tìm thấy nguồn, phải nói "không tìm thấy, hỏi
-TA" thay vì đoán. Mọi câu trả lời bắt buộc kèm link tin nhắn gốc.
-Fallback: AI không tìm ra hoặc trả lời sai → quay về hỏi trong channel như hiện tại.
-Rủi ro: AI đưa deadline cũ đã bị thay đổi, đây chính là lý do bắt buộc phải có link + ngày.
+Chi phí một lần: ~4 tiếng đổi tên 150 file và dựng index. Hoàn vốn sau ~8 tuần nếu chỉ
+tính riêng thời gian tìm kiếm, nhanh hơn nếu tính cả phần dùng chung với Card #2.
+
+Fallback: index thiếu file mới tải về → tìm tay như cũ, và bổ sung vào index ngay sau đó.
+Rủi ro: index không được cập nhật nên hỏng dần. Cách chặn: đặt quy tắc file mới tải về
+phải đổi tên ngay trước khi lưu, không cho phép lưu file tên `IMG_xxxx`.
 ```
 
 File đính kèm: chưa có.
@@ -305,34 +328,36 @@ File đính kèm: chưa có.
 **Card tôi muốn pitch nhất:**
 
 ```text
-Card #1 — Đối chiếu bài nộp với rubric trước khi nộp lab.
+Card #1 — Theo dõi lỗi sai lặp lại của từng học sinh.
 ```
 
 **Vì sao (2-3 câu: workflow gì, số đo gì, impact gì):**
 
 ```text
-Workflow 6 bước và mình là actor trực tiếp nên có baseline bấm giờ thật chứ không ước
-lượng: 37 phút ở lần nộp gần nhất, riêng bước đối chiếu rubric với nội dung là 12 phút.
-Impact đo được ở hai mặt: thời gian (~50-65 phút/tuần cho riêng mình) và chất lượng
-(Day01 mình sót 2 mục self-check, trong channel có 5 bạn bị nhắc sửa lại bài).
-Bài này tách rất rõ phần nào là Rule và phần nào mới cần AI: kiểm cấu trúc thư mục, tên
-file, ô self-check chưa tick là rule thuần; chỉ bước "mục này viết đủ ý chưa" mới cần đọc
-hiểu, nên nhóm có thể so sánh Rule / Workflow / Agent trên cùng một bài toán.
+Workflow 5 bước và điểm thú vị nằm ở chỗ bước 3 không tồn tại: mình chấm bài xong nhưng
+không lưu lỗi lại ở đâu cả, nên cuối tháng phải trả nợ bằng 40 phút lật lại bài cũ cho
+mỗi em. Vì bước đó tốn quá nên thực tế mình bỏ luôn với 3/5 em, và hậu quả là một em học
+suốt 3 tháng vẫn sai cùng dạng biến đổi dấu — đây là impact mình quan tâm hơn cả con số
+thời gian, vì nó ảnh hưởng trực tiếp tới việc học của một người thật.
+Mình pitch bài này còn vì một lý do ngược đời: mình nghĩ nó có thể KHÔNG cần AI. Mình đã
+tính thử, một bảng tick tay 2 phút mỗi buổi tốn 116 phút/tháng còn phương án AI tốn 130
+phút/tháng và thêm rủi ro gán sai nhãn. Mình muốn nhóm soi xem mình tính đúng không.
 ```
 
 **Câu hỏi tôi muốn nhóm challenge (1-2 câu hỏi đúng chỗ yếu):**
 
 ```text
-1. Metric "số mục bị sót" của mình đang dựa vào đánh giá chủ quan: nếu AI bảo một mục
-   "còn mơ hồ" mà mình thấy đã đủ thì lấy gì làm chuẩn? Nhóm giúp mình nghĩ cách đo có
-   ground truth thật (ví dụ đếm comment nhắc sửa của TA) thay vì để mình tự chấm mình.
-2. Baseline "sót 2 mục" mới chỉ đến từ 1 lần nộp của riêng mình. Như vậy có đủ làm
-   baseline cho cả nhóm không, hay phải hỏi thêm vài bạn trong lớp trước khi chốt metric?
+1. Nếu bảng ghi tay 2 phút/buổi đã rẻ hơn và an toàn hơn thì đâu là ranh giới để nói
+   "đến đây thì mới cần AI"? Mình đang nghĩ ranh giới là tính nhất quán (ghi tay hôm mệt
+   sẽ ghi sót), nhưng đó là lập luận hay là mình đang tự bênh ý tưởng dùng AI?
+2. Baseline của mình rất yếu: hiện chưa có bảng theo dõi nào, nên con số "1-2 dạng lỗi
+   bị lặp" mới chỉ là cảm nhận. Nhóm nghĩ mình nên ghi tay 2 tuần lấy baseline trước rồi
+   mới quyết, hay như vậy là quá chậm so với phạm vi một buổi lab?
 ```
 
 **AI phản biện Card (nếu có):**
-- Điểm yếu AI chỉ ra: (1) actor đang bó hẹp trong đúng một lớp học nên khó khẳng định pain tồn tại ngoài phạm vi này; (2) metric "số mục bị sót" không có ground truth, hai người chấm khác nhau sẽ ra kết quả khác nhau; (3) nếu để AI đánh giá nội dung thì rủi ro lớn nhất là AI báo "đủ rồi" trong khi thực tế còn thiếu, tức lỗi bỏ sót nguy hiểm hơn lỗi báo thừa, nhưng card của mình chưa xử lý điều đó.
-- Tôi sửa gì: đổi cách đo từ "mình tự chấm" sang đếm số comment nhắc sửa của TA và số lần phải push sửa sau deadline, vì đây là số kiểm chứng được từ bên ngoài. Bổ sung vào future workflow dòng boundary "AI chỉ đánh dấu và trích dẫn, không tự sửa", và giữ lại một lượt mình tự đọc rubric ở cuối để chặn trường hợp AI báo sót. Ý AI gợi ý mở rộng thành "trợ lý chấm bài tự động cho cả lớp" thì mình bỏ, vì vượt xa phạm vi một buổi lab và làm đổi luôn bản chất bài toán.
+- Điểm yếu AI chỉ ra: (1) actor chỉ có một người thao tác là mình, nên pain có thể chỉ đến từ việc mình chưa có thói quen ghi chép — tức là process fix chứ chưa chắc là bài toán cần AI; (2) metric "số dạng lỗi lặp quá 3 buổi" phụ thuộc vào chính cái bảng theo dõi chưa tồn tại, nên hiện chưa có baseline thật, chỉ có đúng một quan sát định tính là em học 3 tháng vẫn sai; (3) việc để AI đọc ảnh chụp bài viết tay tiếng Việt kèm ký hiệu toán là bài khó, và mình là người duy nhất kiểm nên nhãn sai rất dễ trôi lọt.
+- Tôi sửa gì: giữ cả ba ý vì mình thấy đúng. Sửa Success metric thành hai giai đoạn: ghi tay 2 tuần để lấy baseline thật trước, sau đó mới đặt mục tiêu đưa về 0 trong 6 tuần — thay vì bịa ra một con số baseline cho đẹp. Hạ Quick gut từ Workflow xuống Rule và ghi rõ điều kiện để leo lên Workflow (chỉ khi sau 2 tuần mình không duy trì nổi bảng ghi tay). Thêm vào workflow dòng boundary "AI chỉ gán nhãn trong đúng 5 nhãn đã định nghĩa, không tự viết nhận xét gửi học sinh hay phụ huynh". Ý AI gợi ý mở rộng thành "hệ thống theo dõi tiến bộ toàn diện cho trung tâm" thì mình bỏ, vì mình chỉ có 5 học sinh và bài toán sẽ đổi hẳn bản chất.
 
 ### Self-check nộp phần 01
 - [x] Có 5+ problems + top 3 Cards đủ field (10 problems, 3 Cards đầy đủ)
