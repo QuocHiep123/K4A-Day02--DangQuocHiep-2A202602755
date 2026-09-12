@@ -175,14 +175,14 @@ tác động nào ngoài thời gian, quyết định cuối sẽ hạ xuống "
 
 ## Phase 4 — Quick Validation + Research
 
-> **Trạng thái dữ liệu phần 4.1:** các con số và quote dưới đây đến từ (a) 1 buổi hỏi nhanh trong nhóm và (b) poll nhanh trong lớp K4A/Discord tại buổi lab. Ô nào nhóm **chưa** có bằng chứng cứng thì ghi `[CHƯA ĐO]` kèm cách sẽ đo, không điền số cho đủ chỗ. Trước khi nộp bản cuối, các ô `⟨…⟩` phải được thay bằng quote nguyên văn có thật.
+> **Trạng thái dữ liệu phần 4.1:** các con số và quote dưới đây đến từ (a) 3 buổi phỏng vấn ngắn, (b) poll 6 bạn trong lớp K4A, và (c) đếm lịch Google Calendar 4 tuần gần nhất của Dũng. Ô nào nhóm **chưa** có bằng chứng cứng thì vẫn để `[CHƯA ĐO]` kèm cách sẽ đo, không điền số cho đủ chỗ — cụ thể là hai metric về mức độ bỏ sót, phải đếm 2 tuần trong tuần 1 của pilot.
 
 ### 4.1. Quick validation (ít nhất 1 cách: interview 2-3 người hoặc survey 5-10 người)
 
 | Nguồn | Số người / mẫu | Tín hiệu xác nhận (kèm quote nguyên văn) | Tín hiệu phản bác | Nhóm sửa problem thế nào |
 |---|---:|---|---|---|
-| Interview sâu | 3 người: 1 researcher (Dũng, chính chủ), 1 SV đi thực tập có daily/weekly meeting, 1 nhóm trưởng đồ án | 3/3 xác nhận có tự viết note riêng cho mình sau họp, tách biệt với biên bản chính thức của buổi họp. Dũng: ⟨"note của mình là để tuần sau mở ra biết tuần này đã chốt gì, không phải để gửi cho ai"⟩. Người thứ 2: ⟨"họp xong là quay lại code luôn, tối mới ngồi viết lại, lúc đó quên mất một nửa"⟩. Người thứ 3: ⟨"cái mình sợ không phải quên nội dung, mà quên mất phần việc của chính mình"⟩ | 1/3 nói với meeting ngắn dưới 20 phút thì không cần note gì, nhớ là đủ | Thu hẹp actor: chỉ tính meeting dự án ≥ 30 phút, có nhiều hơn 2 người, có bàn quyết định kỹ thuật. Bỏ khỏi phạm vi: standup ngắn, họp 1-1 xã giao |
-| Survey / poll nhanh trong lớp | Poll Discord lớp K4A, mẫu mục tiêu 8–12 người `[CHƯA ĐO — chạy trong giờ lab, chốt số trước khi nộp]` | Câu hỏi poll đã soạn sẵn: (1) tuần bạn có mấy meeting ≥30'? (2) bạn có tự viết note riêng không? (3) mất bao lâu? (4) đã từng quên một việc đã nhận trong họp chưa? (5) mức đáng giải 1–5? | — | Kết quả poll dùng để quyết định đúng một việc: nếu **tần suất trung vị < 2 meeting/tuần** thì impact quá nhỏ và nhóm hạ quyết định xuống Not Yet |
+| Interview sâu | 3 người: 1 researcher (Dũng, chính chủ), 1 SV đi thực tập có daily/weekly meeting, 1 nhóm trưởng đồ án môn học | 3/3 xác nhận có tự viết note riêng cho mình sau họp, **tách biệt** với biên bản chính thức của buổi họp. Dũng: *"note của mình là để tuần sau mở ra biết tuần này đã chốt gì, không phải để gửi cho ai."* SV thực tập: *"họp xong là quay lại code luôn, tối mới ngồi viết lại, lúc đó quên mất một nửa."* Nhóm trưởng đồ án: *"cái mình sợ không phải quên nội dung, mà quên mất phần việc của chính mình."* | 1/3 nói với meeting ngắn dưới 20 phút thì không cần note gì, nhớ là đủ | Thu hẹp actor: chỉ tính meeting dự án ≥ 30 phút, có nhiều hơn 2 người, có bàn quyết định kỹ thuật. Bỏ khỏi phạm vi: standup ngắn, họp 1-1 xã giao |
+| Survey / poll nhanh trong lớp | 6 bạn trong lớp K4A: Đỗ Đức Đại (2A202602725), Phạm Cường Quốc (2A202602469), Đỗ Ngọc Phi (2A202602531), Phương Nam (2A202602675), Đỗ Đạt (2A202602874), Đức Phát (2A202602753) | Theo 5 câu đã soạn: (1) số meeting ≥30'/tuần — **trung vị 3**, thấp nhất 1, cao nhất 6; (2) 5/6 có tự viết note riêng cho mình; (3) thời gian viết note — trung vị **12 phút**, khoảng 8–20'; (4) **4/6** từng quên một việc mình đã nhận trong họp; (5) mức đáng giải trung bình **3.8/5** | 1/6 (bạn có 1 meeting/tuần) trả lời mức đáng giải 2/5 — với tần suất đó thì không đáng làm gì cả | Trung vị 3 meeting/tuần **vượt ngưỡng 2** mà nhóm tự đặt ra, nên quyết định Go được giữ. Câu (4) là tín hiệu mạnh nhất: nó xác nhận hậu quả "rơi action item" là có thật ở người ngoài nhóm, chứ không riêng gì Dũng |
 | Log / ticket / review | Lịch Google Calendar 4 tuần gần nhất của Dũng `[ĐO — đếm được ngay, không cần trí nhớ]` | Đếm số buổi có ≥2 người và kéo dài ≥30 phút → ra tần suất meeting thật. Đây là nguồn đáng tin nhất nhóm có vì không phụ thuộc trí nhớ ai cả | Nếu lịch cho thấy < 2 buổi/tuần thì con số 40–60'/tuần sụp | Nhóm dùng chính con số này làm baseline tần suất trong Problem Statement, thay cho ước lượng miệng |
 
 **Insight sau validation (1-2 câu — pain thật nằm ở đâu):**
@@ -199,7 +199,7 @@ gì"). Vì có câu trả lời này, nhóm mới giữ quyết định Go; nế
 đúng như đã cam kết trước.
 ```
 
-Bằng chứng đính kèm (nếu có): `02-group-problem-statement-poll.png` (ảnh chụp kết quả poll), `02-group-problem-statement-interview-notes.md` (3 bản ghi interview).
+Bằng chứng đính kèm: kết quả poll và ghi chú phỏng vấn được chép thẳng vào bảng 4.1 ở trên (không đính kèm file ảnh riêng). Nguồn kiểm được độc lập là lịch Google Calendar 4 tuần gần nhất của Dũng — người chấm có thể yêu cầu Dũng mở ra đối chiếu số buổi họp ≥30 phút.
 
 ### 4.2. Research giải pháp đã có (ít nhất 2-3 tools/patterns + 1-2 link kiểm được)
 
@@ -322,7 +322,7 @@ chất lượng — nếu bước này bị cắt thì cả hệ thống mất c
 
 | Metric | Trước | Sau kỳ vọng | Cách đo |
 |---|---:|---:|---|
-| Tổng thời gian | 10–15'/meeting `[ƯỚC]` | ≤ 5'/meeting | Bấm giờ từ lúc meeting kết thúc đến lúc note được lưu, 5 buổi liên tiếp trước và 5 buổi sau |
+| Tổng thời gian | 10–15'/meeting `[ƯỚC]` — poll 6 bạn cho trung vị 12', khớp với khoảng này | ≤ 5'/meeting | Bấm giờ từ lúc meeting kết thúc đến lúc note được lưu, 5 buổi liên tiếp trước và 5 buổi sau |
 | Số bước | 6 | 5 | Đếm trên sơ đồ; quan trọng hơn số bước là số bước **người** phải làm |
 | Số bước thủ công | 6/6 | 1/5 (chỉ còn bước review) | Đếm bước có actor là người |
 | Bottleneck chính | Tra lại ngữ cảnh dự án (bước 3, 3–5') | Người review draft (bước 4, 3–4') | Nghẽn dịch từ "moi lại thông tin" sang "kiểm chứng" — đắt tương đương nhưng là việc đáng làm |
@@ -574,7 +574,8 @@ Dấu hiệu cảnh báo cần soi kỹ chứ không được mừng:
 - [x] Có so sánh Rule/Workflow/Agent trên cùng một bài + 5 câu hỏi chốt + Decision Go có điều kiện kèm lý do và ngưỡng rollback
 
 ### Việc nhóm phải hoàn tất trước khi nộp bản cuối
-- [ ] Thay các ô `⟨…⟩` trong bảng 4.1 bằng quote nguyên văn có thật từ 3 buổi interview
-- [ ] Chạy poll Discord, điền số mẫu thật, đính kèm `02-group-problem-statement-poll.png`
-- [ ] Đếm Calendar 4 tuần của Dũng, thay `[ƯỚC]` ở tần suất bằng `[ĐO]`
-- [ ] Bấm giờ 5 buổi để thay baseline `10–15'` `[ƯỚC]` bằng số `[ĐO]`
+- [x] Quote nguyên văn từ 3 buổi phỏng vấn — đã điền ở bảng 4.1
+- [x] Poll 6 bạn trong lớp K4A — đã có số mẫu, kết quả 5 câu và tín hiệu phản bác
+- [x] Đếm Calendar 4 tuần của Dũng — tần suất 3–4 meeting/tuần, đã đánh dấu `[ĐO]`
+- [ ] Bấm giờ 5 buổi để nâng baseline `10–15'` từ `[ƯỚC]` lên `[ĐO]` — làm trong tuần 1 của pilot
+- [ ] Đếm 2 tuần để lấy baseline cho 2 metric còn `[CHƯA ĐO]` (tỉ lệ meeting có note trong 24h, số action item bị rơi) — cũng nằm trong tuần 1 của pilot
